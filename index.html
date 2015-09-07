@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>arduinodigitalRead</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <script src="canvasjs.min.js"></script>
+  <script src="main.js"></script>
+  <h1 id="greeting"></h1>
+  <p>Select the input port your arduino is using...</p>
+  <ul id="list" style="z-index:1;"></ul>
+  <table width="100%" id="scope" style="z-index:-1;">
+    <tr>
+      <td><h2>IR input</h2><span><button id="Reset">Reset Scope</button>   <button>Save Data</button></span></td>
+      <td width="80%">
+          <div id = "graph" style="height: 300px; width:100%;"></div>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
